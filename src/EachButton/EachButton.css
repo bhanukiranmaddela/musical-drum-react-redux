@@ -1,0 +1,16 @@
+.drum-pad {
+  height: 80px;
+  width: 100px;
+  border: none;
+  margin: 6px 8px 6px 8px;
+  box-shadow: 5px 4px 5px black;
+  background-color: gray;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.drum-pad:active {
+  background-color: #ffd700;
+}
+

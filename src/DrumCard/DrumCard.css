@@ -1,0 +1,47 @@
+#display {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 700px;
+  border: solid 7px #ffd700;
+  display: flex;
+  background-color: #c0c0c0;
+}
+.card1 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: repeat(3,80px);
+  grid-gap: 15px;
+  width: 55%;
+}
+.card2 {
+  width: 45%;
+}
+.drum-pad {
+  height: 80px;
+  width: 100px;
+  border: none;
+  margin: 6px 8px 6px 8px;
+  box-shadow: 5px 4px 5px black;
+  background-color: gray;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+ .card1 > div{
+    text-align: center;
+ }
+
+ .drum-pad:active{
+    background-color: #ffd700;
+ }

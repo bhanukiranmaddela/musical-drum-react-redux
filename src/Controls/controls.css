@@ -1,0 +1,76 @@
+.toggle-button {
+  margin: auto;
+  width: 50px;
+  height: 20px;
+  color: black;
+  border-radius: 10%;
+  border: solid 2px black;
+  background-color: black;
+}
+.power {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.switch {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  transform: easeout translate(180%);
+  margin-top: 1px;
+  margin-left: 1px;
+}
+.switch-off {
+  border-radius: 50%;
+  background-color: red;
+  border: solid 1px red;
+  transform: translateX(180%);
+}
+.switch-on {
+  border-radius: 50%;
+  background-color: green;
+  border: solid 1px green;
+  transform: translateX(0%);
+}
+.range-div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type="range"] {
+  height: 25px;
+  -webkit-appearance: none;
+  width: 80%;
+  background-color: none;
+  background: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: grey;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type="range"]::-webkit-slider-thumb {
+  border: 1px solid #000000;
+  height: 30px;
+  width: 8px;
+  cursor: pointer;
+  background: green;
+  -webkit-appearance: none;
+  margin-top: -12px;
+}
+.vol-cont {
+  text-align: center;
+  background-color: grey;
+  margin: auto;
+  width: 60%;
+}
+.vol-cont > h1{
+  font-weight: 900 !important;
+}
+.control-div{
+    margin-top: 20%;
+}
